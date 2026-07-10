@@ -1,0 +1,13 @@
+{
+  "defaultMode": "auto",
+  "autoMode": {
+    "environment": [
+      "Project type: Personal sandbox and rapid prototyping",
+      "Rule: Fully autonomous mode. All local file operations and terminal commands are pre-approved."
+    ]
+  },
+  "permissions": {
+    "fileSystem": "read-write",
+    "commands": "allow-all"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker --version)",
+      "Bash(docker compose *)",
+      "Bash(go version *)",
+      "Bash(go mod *)",
+      "Bash(go build *)",
+      "Bash(rmdir frontend *)",
+      "Bash(npx --yes create-next-app@latest frontend --typescript --tailwind --app --src-dir --import-alias \"@/*\" --use-npm --eslint --turbopack --yes)",
+      "Bash(npm install *)",
+      "Bash(find src *)",
+      "Bash(cat src/app/layout.tsx)",
+      "Bash(cat src/app/page.tsx)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/next/package.json'\\).version\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "PowerShell(Get-Process *)",
+      "Bash(curl -s http://localhost:8080/health)",
+      "Bash(curl -s http://localhost:8080/api/tasks)",
+      "Bash(curl -s \"http://localhost:8080/api/weather\")",
+      "Bash(curl -s \"http://localhost:8080/api/suggestions\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(node test_taskmanager.js)",
+      "Bash(node test_taskmanager2.js)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
